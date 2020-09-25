@@ -1,0 +1,15 @@
+
+server:
+  port: 8082
+
+spring:
+  datasource:
+    password: devDiego
+    username: root
+    url: jdbc:mysql://localhost/fornecedor
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
